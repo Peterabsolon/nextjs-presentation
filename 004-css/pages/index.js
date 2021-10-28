@@ -7,8 +7,16 @@ export default () => {
   return (
     <div>
       <h1 className={styles.hello}>Home</h1>
-      <div>Count: {count}</div>
+      <div className="counter">Count: {count}</div>
       <button onClick={() => setCount(count + 1)}>Click</button>
+
+      <style jsx>
+        {`
+          .counter {
+            color: blue;
+          }
+        `}
+      </style>
     </div>
   )
 }
