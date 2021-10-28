@@ -6,10 +6,10 @@
 - Code splitting, dynamic import (next/dynamic)
 - CSS built in
 - Data fetching (getStaticProps, getServerSideProps)
+- API routes
 - custom app
 - custom document
 - custom server
-- API routes
 - next/head
 - env variables
 - Integration examples https://github.com/vercel/next.js/tree/canary/examples

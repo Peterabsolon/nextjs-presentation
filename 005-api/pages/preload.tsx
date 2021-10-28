@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react'
-
 interface IPageProps {
   pets: string[]
 }
@@ -7,7 +5,8 @@ interface IPageProps {
 export default ({ pets }: IPageProps) => {
   return (
     <div>
-      <h1>Home</h1>
+      <h1>Pets</h1>
+
       {pets.map((pet) => (
         <div key={pet}>{pet}</div>
       ))}

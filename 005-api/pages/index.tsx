@@ -16,7 +16,8 @@ export default () => {
 
   return (
     <div>
-      <h1>Home</h1>
+      <h1>Pets</h1>
+
       {pets.map((pet) => (
         <div key={pet}>{pet}</div>
       ))}
