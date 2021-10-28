@@ -1,11 +1,11 @@
 # NextJS
 
+- SSR
 - Zero config, extendable, DX (fast-refresh)
 - Router, redirects, pre-fetching (next/link)
 - Code splitting, dynamic import (next/dynamic)
-- SSR
-- Data fetching (getStaticProps, getServerSideProps)
 - CSS built in
+- Data fetching (getStaticProps, getServerSideProps)
 - custom app
 - custom document
 - custom server
