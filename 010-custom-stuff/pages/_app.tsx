@@ -6,6 +6,8 @@ import './styles.css'
 //   api.init(process.env.NEXT_PUBLIC_API_URL)
 // }
 
+// https://nextjs.org/docs/basic-features/layouts#per-page-layouts
+
 function MyApp({ Component }: AppProps) {
   return (
     <div>

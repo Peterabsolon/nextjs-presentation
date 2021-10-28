@@ -13,4 +13,6 @@
 - next/head
 - env variables
 - Integration examples https://github.com/vercel/next.js/tree/canary/examples
+- https://nextjs.org/docs/advanced-features/react-18#enable-ssr-streaming-alpha
+- https://nextjs.org/docs/advanced-features/i18n-routing
 - v12 - Rust compiler (SWC)
